@@ -9,3 +9,4 @@ c:\source\HouseholdExpenses\backend\HouseholdExpenses.Exception\obj\Debug\net9.0
 c:\source\HouseholdExpenses\backend\HouseholdExpenses.Exception\obj\Debug\net9.0\refint\HouseholdExpenses.Exception.dll
 c:\source\HouseholdExpenses\backend\HouseholdExpenses.Exception\obj\Debug\net9.0\HouseholdExpenses.Exception.pdb
 c:\source\HouseholdExpenses\backend\HouseholdExpenses.Exception\obj\Debug\net9.0\ref\HouseholdExpenses.Exception.dll
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Exception\obj\Debug\net9.0\HouseholdExpenses.Exception.sourcelink.json

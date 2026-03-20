@@ -13,3 +13,4 @@ c:\source\HouseholdExpenses\backend\HouseholdExpenses.Communication\obj\Debug\ne
 c:\source\HouseholdExpenses\backend\HouseholdExpenses.Communication\obj\Debug\net9.0\refint\HouseholdExpenses.Communication.dll
 c:\source\HouseholdExpenses\backend\HouseholdExpenses.Communication\obj\Debug\net9.0\HouseholdExpenses.Communication.pdb
 c:\source\HouseholdExpenses\backend\HouseholdExpenses.Communication\obj\Debug\net9.0\ref\HouseholdExpenses.Communication.dll
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Communication\obj\Debug\net9.0\HouseholdExpenses.Communication.sourcelink.json

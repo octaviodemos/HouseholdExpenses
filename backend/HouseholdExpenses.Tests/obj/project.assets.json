@@ -21,6 +21,22 @@
           "build/netstandard2.0/Microsoft.CodeCoverage.targets": {}
         }
       },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "Microsoft.NET.Test.Sdk/17.12.0": {
         "type": "package",
         "dependencies": {
@@ -411,6 +427,55 @@
         "build": {
           "build/net6.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "HouseholdExpenses.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "HouseholdExpenses.Communication": "1.0.0",
+          "HouseholdExpenses.Domain": "1.0.0",
+          "HouseholdExpenses.Exception": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HouseholdExpenses.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HouseholdExpenses.Application.dll": {}
+        }
+      },
+      "HouseholdExpenses.Communication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "HouseholdExpenses.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HouseholdExpenses.Communication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HouseholdExpenses.Communication.dll": {}
+        }
+      },
+      "HouseholdExpenses.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/HouseholdExpenses.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HouseholdExpenses.Domain.dll": {}
+        }
+      },
+      "HouseholdExpenses.Exception/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/HouseholdExpenses.Exception.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HouseholdExpenses.Exception.dll": {}
+        }
       }
     }
   },
@@ -549,6 +614,36 @@
         "lib/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
         "microsoft.codecoverage.17.12.0.nupkg.sha512",
         "microsoft.codecoverage.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
+      "sha512": "+6f2qv2a3dLwd5w6JanPIPs47CxRbnk+ZocMJUhv9NxP88VlOcJYZs9jY+MYSjxvady08bUZn6qgiNh7DadGgg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "Microsoft.NET.Test.Sdk/17.12.0": {
@@ -932,10 +1027,32 @@
         "xunit.runner.visualstudio.2.8.2.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "HouseholdExpenses.Application/1.0.0": {
+      "type": "project",
+      "path": "../HouseholdExpenses.Application/HouseholdExpenses.Application.csproj",
+      "msbuildProject": "../HouseholdExpenses.Application/HouseholdExpenses.Application.csproj"
+    },
+    "HouseholdExpenses.Communication/1.0.0": {
+      "type": "project",
+      "path": "../HouseholdExpenses.Communication/HouseholdExpenses.Communication.csproj",
+      "msbuildProject": "../HouseholdExpenses.Communication/HouseholdExpenses.Communication.csproj"
+    },
+    "HouseholdExpenses.Domain/1.0.0": {
+      "type": "project",
+      "path": "../HouseholdExpenses.Domain/HouseholdExpenses.Domain.csproj",
+      "msbuildProject": "../HouseholdExpenses.Domain/HouseholdExpenses.Domain.csproj"
+    },
+    "HouseholdExpenses.Exception/1.0.0": {
+      "type": "project",
+      "path": "../HouseholdExpenses.Exception/HouseholdExpenses.Exception.csproj",
+      "msbuildProject": "../HouseholdExpenses.Exception/HouseholdExpenses.Exception.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "HouseholdExpenses.Application >= 1.0.0",
+      "HouseholdExpenses.Domain >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.12.0",
       "coverlet.collector >= 6.0.2",
       "xunit >= 2.9.2",
@@ -949,11 +1066,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Tests\\HouseholdExpenses.Tests.csproj",
+      "projectUniqueName": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Tests\\HouseholdExpenses.Tests.csproj",
       "projectName": "HouseholdExpenses.Tests",
-      "projectPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Tests\\HouseholdExpenses.Tests.csproj",
+      "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Tests\\HouseholdExpenses.Tests.csproj",
       "packagesPath": "C:\\Users\\octav\\.nuget\\packages\\",
-      "outputPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Tests\\obj\\",
+      "outputPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -973,7 +1090,14 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Application\\HouseholdExpenses.Application.csproj": {
+              "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Application\\HouseholdExpenses.Application.csproj"
+            },
+            "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj": {
+              "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

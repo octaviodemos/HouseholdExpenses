@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ZG06YwQwHbESXRT/bkQqUEBozNfG9mbxFEp16OI+zbs=",
+  "Source": "HouseholdExpenses.Api",
+  "BasePath": "_content/HouseholdExpenses.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

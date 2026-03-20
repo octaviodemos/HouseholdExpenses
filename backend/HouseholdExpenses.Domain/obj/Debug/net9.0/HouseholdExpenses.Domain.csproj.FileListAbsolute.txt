@@ -9,3 +9,4 @@ c:\source\HouseholdExpenses\backend\HouseholdExpenses.Domain\obj\Debug\net9.0\Ho
 c:\source\HouseholdExpenses\backend\HouseholdExpenses.Domain\obj\Debug\net9.0\refint\HouseholdExpenses.Domain.dll
 c:\source\HouseholdExpenses\backend\HouseholdExpenses.Domain\obj\Debug\net9.0\HouseholdExpenses.Domain.pdb
 c:\source\HouseholdExpenses\backend\HouseholdExpenses.Domain\obj\Debug\net9.0\ref\HouseholdExpenses.Domain.dll
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Domain\obj\Debug\net9.0\HouseholdExpenses.Domain.sourcelink.json
