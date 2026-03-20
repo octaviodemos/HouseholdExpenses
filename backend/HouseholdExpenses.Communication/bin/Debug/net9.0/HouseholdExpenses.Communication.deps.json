@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "HouseholdExpenses.Communication/1.0.0": {
+        "dependencies": {
+          "HouseholdExpenses.Domain": "1.0.0"
+        },
+        "runtime": {
+          "HouseholdExpenses.Communication.dll": {}
+        }
+      },
+      "HouseholdExpenses.Domain/1.0.0": {
+        "runtime": {
+          "HouseholdExpenses.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HouseholdExpenses.Communication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HouseholdExpenses.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

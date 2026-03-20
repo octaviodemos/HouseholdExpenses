@@ -1,0 +1,11 @@
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Domain\bin\Debug\net9.0\HouseholdExpenses.Domain.deps.json
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Domain\bin\Debug\net9.0\HouseholdExpenses.Domain.dll
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Domain\bin\Debug\net9.0\HouseholdExpenses.Domain.pdb
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Domain\obj\Debug\net9.0\HouseholdExpenses.Domain.GeneratedMSBuildEditorConfig.editorconfig
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Domain\obj\Debug\net9.0\HouseholdExpenses.Domain.AssemblyInfoInputs.cache
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Domain\obj\Debug\net9.0\HouseholdExpenses.Domain.AssemblyInfo.cs
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Domain\obj\Debug\net9.0\HouseholdExpenses.Domain.csproj.CoreCompileInputs.cache
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Domain\obj\Debug\net9.0\HouseholdExpenses.Domain.dll
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Domain\obj\Debug\net9.0\refint\HouseholdExpenses.Domain.dll
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Domain\obj\Debug\net9.0\HouseholdExpenses.Domain.pdb
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Domain\obj\Debug\net9.0\ref\HouseholdExpenses.Domain.dll

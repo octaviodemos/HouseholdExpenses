@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HouseholdExpenses.Application\HouseholdExpenses.Application.csproj" />
+    <ProjectReference Include="..\HouseholdExpenses.Infrastructure\HouseholdExpenses.Infrastructure.csproj" />
+    <ProjectReference Include="..\HouseholdExpenses.Communication\HouseholdExpenses.Communication.csproj" />
+    <ProjectReference Include="..\HouseholdExpenses.Exception\HouseholdExpenses.Exception.csproj" />
+  </ItemGroup>
+
+</Project>

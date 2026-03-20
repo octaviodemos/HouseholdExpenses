@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  # Banco de dados PostgreSQL
+  household-db:
+    image: postgres:15
+    container_name: household-expenses-db
+    environment:
+      POSTGRES_USER: household
+      POSTGRES_PASSWORD: household@123
+      POSTGRES_DB: household_expenses
+    ports:
+      - "5432:5432"
+    volumes:
+      - household_pgdata:/var/lib/postgresql/data
+    networks:
+      - household-network
+
+  # Backend .NET
+  household-api:
+    build:
+      context: ./backend
+      dockerfile: HouseholdExpenses.Api/Dockerfile
+    container_name: household-expenses-api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=household-db;Port=5432;Database=household_expenses;Username=household;Password=household@123
+    ports:
+      - "5000:8080"
+    depends_on:
+      - household-db
+    networks:
+      - household-network
+
+  # Frontend React
+  household-web:
+    build:
+      context: ./frontend/household-expenses-web
+      dockerfile: Dockerfile
+    container_name: household-expenses-web
+    ports:
+      - "3000:3000"
+    depends_on:
+      - household-api
+    networks:
+      - household-network
+
+volumes:
+  household_pgdata:
+
+networks:
+  household-network:
+    driver: bridge

@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\HouseholdExpenses.Domain\HouseholdExpenses.Domain.csproj" />
+    <ProjectReference Include="..\HouseholdExpenses.Communication\HouseholdExpenses.Communication.csproj" />
+    <ProjectReference Include="..\HouseholdExpenses.Exception\HouseholdExpenses.Exception.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="16.1.1" />
+    <PackageReference Include="FluentValidation" Version="12.1.1" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

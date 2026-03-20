@@ -1,0 +1,15 @@
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Communication\bin\Debug\net9.0\HouseholdExpenses.Communication.deps.json
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Communication\bin\Debug\net9.0\HouseholdExpenses.Communication.dll
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Communication\bin\Debug\net9.0\HouseholdExpenses.Communication.pdb
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Communication\bin\Debug\net9.0\HouseholdExpenses.Domain.dll
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Communication\bin\Debug\net9.0\HouseholdExpenses.Domain.pdb
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Communication\obj\Debug\net9.0\HouseholdExpenses.Communication.csproj.AssemblyReference.cache
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Communication\obj\Debug\net9.0\HouseholdExpenses.Communication.GeneratedMSBuildEditorConfig.editorconfig
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Communication\obj\Debug\net9.0\HouseholdExpenses.Communication.AssemblyInfoInputs.cache
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Communication\obj\Debug\net9.0\HouseholdExpenses.Communication.AssemblyInfo.cs
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Communication\obj\Debug\net9.0\HouseholdExpenses.Communication.csproj.CoreCompileInputs.cache
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Communication\obj\Debug\net9.0\Househol.C22BA486.Up2Date
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Communication\obj\Debug\net9.0\HouseholdExpenses.Communication.dll
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Communication\obj\Debug\net9.0\refint\HouseholdExpenses.Communication.dll
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Communication\obj\Debug\net9.0\HouseholdExpenses.Communication.pdb
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Communication\obj\Debug\net9.0\ref\HouseholdExpenses.Communication.dll
