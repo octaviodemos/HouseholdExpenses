@@ -46,6 +46,14 @@ O backend segue **Clean Architecture** com inspiração em **DDD (Domain-Driven 
 
 ---
 
+## Diagrama ER
+
+Modelo relacional das entidades persistidas no PostgreSQL (tabelas `persons`, `categories`, `transactions`).
+
+![Diagrama ER](docs/er-diagram.png)
+
+---
+
 ## Funcionalidades
 
 - **Pessoas:** CRUD completo (criar, listar, editar, excluir).
@@ -155,6 +163,8 @@ HouseholdExpenses/
 │   ├── HouseholdExpenses.Communication/
 │   ├── HouseholdExpenses.Exception/
 │   └── HouseholdExpenses.Tests/
+├── docs/
+│   └── er-diagram.png
 ├── frontend/
 │   └── household-expenses-web/
 ├── docker-compose.yml
