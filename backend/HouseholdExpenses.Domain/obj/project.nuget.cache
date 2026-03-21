@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KqRTJjkc3no=",
+  "dgSpecHash": "it4BymabylM=",
   "success": true,
-  "projectFilePath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj",
+  "projectFilePath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

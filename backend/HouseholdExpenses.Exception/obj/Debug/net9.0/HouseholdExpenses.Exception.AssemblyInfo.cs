@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HouseholdExpenses.Exception")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3685d921b05a7b70b7a035c3c4c441772a7b81d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d19b962acc34c4e13ad585ba109c6e547fc1925")]
 [assembly: System.Reflection.AssemblyProductAttribute("HouseholdExpenses.Exception")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HouseholdExpenses.Exception")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
