@@ -108,3 +108,8 @@ c:\source\HouseholdExpenses\backend\HouseholdExpenses.Tests\obj\Debug\net9.0\ref
 c:\source\HouseholdExpenses\backend\HouseholdExpenses.Tests\obj\Debug\net9.0\HouseholdExpenses.Tests.pdb
 c:\source\HouseholdExpenses\backend\HouseholdExpenses.Tests\obj\Debug\net9.0\HouseholdExpenses.Tests.genruntimeconfig.cache
 c:\source\HouseholdExpenses\backend\HouseholdExpenses.Tests\obj\Debug\net9.0\ref\HouseholdExpenses.Tests.dll
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Tests\bin\Debug\net9.0\Castle.Core.dll
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Tests\bin\Debug\net9.0\Moq.dll
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Tests\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Tests\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+c:\source\HouseholdExpenses\backend\HouseholdExpenses.Tests\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P21+d9mNWVc=",
+  "dgSpecHash": "X1nkaImwhjQ=",
   "success": true,
-  "projectFilePath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Application\\HouseholdExpenses.Application.csproj",
+  "projectFilePath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Application\\HouseholdExpenses.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\octav\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512"
   ],

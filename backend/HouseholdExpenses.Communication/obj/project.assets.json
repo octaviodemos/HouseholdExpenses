@@ -58,8 +58,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj": {
-              "projectPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj"
+            "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj": {
+              "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj"
             }
           }
         }

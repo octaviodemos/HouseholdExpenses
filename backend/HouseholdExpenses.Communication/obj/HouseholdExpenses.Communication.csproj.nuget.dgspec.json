@@ -32,8 +32,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj": {
-                "projectPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj"
+              "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj": {
+                "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj": {
+    "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj",
+        "projectUniqueName": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj",
         "projectName": "HouseholdExpenses.Domain",
-        "projectPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj",
+        "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj",
         "packagesPath": "C:\\Users\\octav\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\obj\\",
+        "outputPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

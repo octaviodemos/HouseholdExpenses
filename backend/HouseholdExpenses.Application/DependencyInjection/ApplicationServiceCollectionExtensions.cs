@@ -1,5 +1,6 @@
 using HouseholdExpenses.Application.UseCases.Category.Create;
 using HouseholdExpenses.Application.UseCases.Category.GetAll;
+using HouseholdExpenses.Application.UseCases.Category.GetTotals;
 using HouseholdExpenses.Application.UseCases.Person.Create;
 using HouseholdExpenses.Application.UseCases.Person.Delete;
 using HouseholdExpenses.Application.UseCases.Person.GetAll;
@@ -31,6 +32,7 @@ public static class ApplicationServiceCollectionExtensions
 
         services.AddScoped<ICreateCategoryUseCase, CreateCategoryUseCase>();
         services.AddScoped<IGetAllCategoriesUseCase, GetAllCategoriesUseCase>();
+        services.AddScoped<IGetCategoryTotalsUseCase, GetCategoryTotalsUseCase>();
 
         services.AddScoped<ICreateTransactionUseCase, CreateTransactionUseCase>();
         services.AddScoped<IGetAllTransactionsUseCase, GetAllTransactionsUseCase>();
