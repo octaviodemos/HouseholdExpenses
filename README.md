@@ -89,6 +89,8 @@ Todas as rotas da API são protegidas por JWT. Para acessar os endpoints é nece
 
 No frontend, o token é armazenado no `localStorage` e enviado automaticamente pelo Axios.
 
+> **Decisão de design:** o cadastro foi implementado como aberto pois o sistema tem uso residencial/compartilhado entre os membros da casa. Em um cenário real de produção, o ideal seria restringir o cadastro a um administrador ou utilizar convites.
+
 ---
 
 ## Tecnologias
