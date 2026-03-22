@@ -69,12 +69,25 @@ O projeto possui uma prototipação de baixa fidelidade disponível no Figma:
 - **Transações:** criar e listar (com descrição de categoria e nome da pessoa na listagem).
 - **Totais por pessoa:** receitas, despesas e saldo por indivíduo, com **saldo geral** consolidado.
 - **Totais por categoria:** mesma ideia agregada por categoria, com **totais gerais** no rodapé.
+- **Autenticação JWT** — cadastro e login de usuários, todas as rotas da API protegidas com Bearer token
 
 ### Regras de negócio destacadas
 
 - **Menor de 18 anos:** só pode registrar transações do tipo **despesa**.
 - **Categoria e tipo:** a categoria deve ser **compatível** com o tipo da transação (despesa, receita ou “ambas”).
 - **Exclusão em cascata:** ao remover uma pessoa, as transações associadas são removidas conforme configuração do EF Core.
+
+---
+
+## Autenticação
+
+Todas as rotas da API são protegidas por JWT. Para acessar os endpoints é necessário:
+
+1. Criar uma conta em `POST /api/auth/register` com email e senha (mínimo 6 caracteres)
+2. Fazer login em `POST /api/auth/login` para obter o token
+3. Enviar o token no header `Authorization: Bearer <token>` em todas as requisições
+
+No frontend, o token é armazenado no `localStorage` e enviado automaticamente pelo Axios.
 
 ---
 
@@ -90,6 +103,7 @@ O projeto possui uma prototipação de baixa fidelidade disponível no Figma:
 
 ## Diferenciais
 
+- **Autenticação JWT** — endpoints protegidos com Bearer token, senhas com hash BCrypt, token com expiração de 8 horas
 - **Clean Architecture + DDD** — separação clara de responsabilidades, domínio isolado de infraestrutura
 - **Testes unitários** — 25 testes cobrindo regras de negócio do Domain e Use Cases com xUnit e Moq
 - **Docker Compose** — ambiente completo com um único comando (`docker compose up -d --build`)
