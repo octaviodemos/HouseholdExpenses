@@ -140,14 +140,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj": {
-              "projectPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj"
+            "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj": {
+              "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj"
             },
             "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj": {
               "projectPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj"
             },
-            "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj": {
-              "projectPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj"
+            "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj": {
+              "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj"
             }
           }
         }

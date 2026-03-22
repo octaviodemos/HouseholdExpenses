@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj": {}
+    "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj": {}
   },
   "projects": {
-    "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj": {
+    "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj",
+        "projectUniqueName": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj",
         "projectName": "HouseholdExpenses.Exception",
-        "projectPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj",
+        "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj",
         "packagesPath": "C:\\Users\\octav\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\obj\\",
+        "outputPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

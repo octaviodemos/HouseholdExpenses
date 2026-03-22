@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Infrastructure\\HouseholdExpenses.Infrastructure.csproj": {}
+    "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Infrastructure\\HouseholdExpenses.Infrastructure.csproj": {}
   },
   "projects": {
     "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Application\\HouseholdExpenses.Application.csproj": {
@@ -32,14 +32,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj": {
-                "projectPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj"
+              "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj": {
+                "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj"
               },
               "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj": {
                 "projectPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj"
               },
-              "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj": {
-                "projectPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj"
+              "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj": {
+                "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj": {
+    "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj",
+        "projectUniqueName": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj",
         "projectName": "HouseholdExpenses.Communication",
-        "projectPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj",
+        "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj",
         "packagesPath": "C:\\Users\\octav\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\obj\\",
+        "outputPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -219,14 +219,14 @@
         }
       }
     },
-    "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj": {
+    "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj",
+        "projectUniqueName": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj",
         "projectName": "HouseholdExpenses.Exception",
-        "projectPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj",
+        "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj",
         "packagesPath": "C:\\Users\\octav\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\obj\\",
+        "outputPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -284,14 +284,14 @@
         }
       }
     },
-    "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Infrastructure\\HouseholdExpenses.Infrastructure.csproj": {
+    "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Infrastructure\\HouseholdExpenses.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Infrastructure\\HouseholdExpenses.Infrastructure.csproj",
+        "projectUniqueName": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Infrastructure\\HouseholdExpenses.Infrastructure.csproj",
         "projectName": "HouseholdExpenses.Infrastructure",
-        "projectPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Infrastructure\\HouseholdExpenses.Infrastructure.csproj",
+        "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Infrastructure\\HouseholdExpenses.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\octav\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Infrastructure\\obj\\",
+        "outputPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -337,6 +337,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -352,6 +356,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[9.0.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.2.1, )"
             }
           },
           "imports": [

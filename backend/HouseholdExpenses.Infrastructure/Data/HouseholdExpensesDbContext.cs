@@ -26,6 +26,9 @@ public class HouseholdExpensesDbContext : DbContext
     /// <summary>Transações financeiras.</summary>
     public DbSet<Transaction> Transactions => Set<Transaction>();
 
+    /// <summary>Usuários para autenticação JWT.</summary>
+    public DbSet<User> Users => Set<User>();
+
     /// <inheritdoc />
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

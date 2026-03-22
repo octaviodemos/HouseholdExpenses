@@ -1,6 +1,8 @@
 using HouseholdExpenses.Application.Repositories;
+using HouseholdExpenses.Application.Services;
 using HouseholdExpenses.Infrastructure.Data;
 using HouseholdExpenses.Infrastructure.Repositories;
+using HouseholdExpenses.Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -30,6 +32,9 @@ public static class InfrastructureServiceCollectionExtensions
         services.AddScoped<IPersonRepository, PersonRepository>();
         services.AddScoped<ICategoryRepository, CategoryRepository>();
         services.AddScoped<ITransactionRepository, TransactionRepository>();
+        services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IPasswordHasher, BCryptPasswordHasher>();
+        services.AddScoped<IJwtService, JwtService>();
         services.AddScoped<IUnitOfWork, HouseholdExpenses.Infrastructure.UnitOfWork.UnitOfWork>();
 
         return services;

@@ -2,6 +2,7 @@ using HouseholdExpenses.Application.UseCases.Transaction.Create;
 using HouseholdExpenses.Application.UseCases.Transaction.GetAll;
 using HouseholdExpenses.Communication.Requests.Transaction;
 using HouseholdExpenses.Communication.Responses.Transaction;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HouseholdExpenses.Api.Controllers;
@@ -10,6 +11,7 @@ namespace HouseholdExpenses.Api.Controllers;
 /// Endpoints para transações financeiras (despesas e receitas).
 /// </summary>
 [ApiController]
+[Authorize]
 [Route("api/transactions")]
 public sealed class TransactionController : ControllerBase
 {

@@ -5,6 +5,7 @@ using HouseholdExpenses.Application.UseCases.Person.GetTotals;
 using HouseholdExpenses.Application.UseCases.Person.Update;
 using HouseholdExpenses.Communication.Requests.Person;
 using HouseholdExpenses.Communication.Responses.Person;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HouseholdExpenses.Api.Controllers;
@@ -13,6 +14,7 @@ namespace HouseholdExpenses.Api.Controllers;
 /// Endpoints para cadastro, atualização, exclusão e consulta de pessoas e totais por pessoa.
 /// </summary>
 [ApiController]
+[Authorize]
 [Route("api/persons")]
 public sealed class PersonController : ControllerBase
 {

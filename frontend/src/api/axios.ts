@@ -1,4 +1,5 @@
 import axios, { type AxiosError } from 'axios'
+import { AUTH_TOKEN_STORAGE_KEY } from '../types/auth'
 
 /** Corpo JSON padrão da API em caso de falha (validação, não encontrado, etc.). */
 interface ApiErrorPayload {
@@ -6,7 +7,7 @@ interface ApiErrorPayload {
 }
 
 const baseURL =
-  import.meta.env.VITE_API_URL?.toString().trim() || 'http://localhost:5000'
+  import.meta.env.VITE_API_URL?.toString().trim() || 'http://localhost:5049'
 
 /**
  * Cliente HTTP centralizado: baseURL configurável e tratamento uniforme de erros
@@ -17,6 +18,14 @@ const api = axios.create({
   headers: {
     'Content-Type': 'application/json',
   },
+})
+
+api.interceptors.request.use((config) => {
+  const stored = localStorage.getItem(AUTH_TOKEN_STORAGE_KEY)
+  if (stored) {
+    config.headers.Authorization = `Bearer ${stored}`
+  }
+  return config
 })
 
 api.interceptors.response.use(

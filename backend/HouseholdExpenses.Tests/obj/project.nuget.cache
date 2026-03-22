@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9FmI3gExtTk=",
+  "dgSpecHash": "VInEzeI2KSs=",
   "success": true,
-  "projectFilePath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Tests\\HouseholdExpenses.Tests.csproj",
+  "projectFilePath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Tests\\HouseholdExpenses.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\octav\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\octav\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",

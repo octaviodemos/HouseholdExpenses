@@ -3,6 +3,7 @@ using HouseholdExpenses.Application.UseCases.Category.GetAll;
 using HouseholdExpenses.Application.UseCases.Category.GetTotals;
 using HouseholdExpenses.Communication.Requests.Category;
 using HouseholdExpenses.Communication.Responses.Category;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HouseholdExpenses.Api.Controllers;
@@ -11,6 +12,7 @@ namespace HouseholdExpenses.Api.Controllers;
 /// Endpoints para categorias de transações.
 /// </summary>
 [ApiController]
+[Authorize]
 [Route("api/categories")]
 public sealed class CategoryController : ControllerBase
 {

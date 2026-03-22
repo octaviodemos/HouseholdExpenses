@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Tests\\HouseholdExpenses.Tests.csproj": {}
+    "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Tests\\HouseholdExpenses.Tests.csproj": {}
   },
   "projects": {
     "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Application\\HouseholdExpenses.Application.csproj": {
@@ -32,14 +32,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj": {
-                "projectPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj"
+              "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj": {
+                "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj"
               },
               "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj": {
                 "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj"
               },
-              "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj": {
-                "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj"
+              "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj": {
+                "projectPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj": {
+    "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj",
+        "projectUniqueName": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj",
         "projectName": "HouseholdExpenses.Communication",
-        "projectPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj",
+        "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj",
         "packagesPath": "C:\\Users\\octav\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\obj\\",
+        "outputPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -219,14 +219,14 @@
         }
       }
     },
-    "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj": {
+    "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj",
+        "projectUniqueName": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj",
         "projectName": "HouseholdExpenses.Exception",
-        "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj",
+        "projectPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj",
         "packagesPath": "C:\\Users\\octav\\.nuget\\packages\\",
-        "outputPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\obj\\",
+        "outputPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -284,14 +284,14 @@
         }
       }
     },
-    "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Tests\\HouseholdExpenses.Tests.csproj": {
+    "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Tests\\HouseholdExpenses.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Tests\\HouseholdExpenses.Tests.csproj",
+        "projectUniqueName": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Tests\\HouseholdExpenses.Tests.csproj",
         "projectName": "HouseholdExpenses.Tests",
-        "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Tests\\HouseholdExpenses.Tests.csproj",
+        "projectPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Tests\\HouseholdExpenses.Tests.csproj",
         "packagesPath": "C:\\Users\\octav\\.nuget\\packages\\",
-        "outputPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Tests\\obj\\",
+        "outputPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -315,14 +315,14 @@
               "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Application\\HouseholdExpenses.Application.csproj": {
                 "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Application\\HouseholdExpenses.Application.csproj"
               },
-              "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj": {
-                "projectPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj"
+              "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj": {
+                "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj"
               },
               "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj": {
                 "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Domain\\HouseholdExpenses.Domain.csproj"
               },
-              "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj": {
-                "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj"
+              "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj": {
+                "projectPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Exception\\HouseholdExpenses.Exception.csproj"
               }
             }
           }

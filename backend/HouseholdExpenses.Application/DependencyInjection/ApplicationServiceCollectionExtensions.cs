@@ -1,3 +1,5 @@
+using HouseholdExpenses.Application.UseCases.Auth.Login;
+using HouseholdExpenses.Application.UseCases.Auth.Register;
 using HouseholdExpenses.Application.UseCases.Category.Create;
 using HouseholdExpenses.Application.UseCases.Category.GetAll;
 using HouseholdExpenses.Application.UseCases.Category.GetTotals;
@@ -24,6 +26,9 @@ public static class ApplicationServiceCollectionExtensions
     /// <returns>A mesma coleção para encadeamento.</returns>
     public static IServiceCollection AddApplication(this IServiceCollection services)
     {
+        services.AddScoped<IRegisterUseCase, RegisterUseCase>();
+        services.AddScoped<ILoginUseCase, LoginUseCase>();
+
         services.AddScoped<ICreatePersonUseCase, CreatePersonUseCase>();
         services.AddScoped<IUpdatePersonUseCase, UpdatePersonUseCase>();
         services.AddScoped<IDeletePersonUseCase, DeletePersonUseCase>();

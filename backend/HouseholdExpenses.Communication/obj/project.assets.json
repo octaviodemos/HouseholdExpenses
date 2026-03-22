@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj",
+      "projectUniqueName": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj",
       "projectName": "HouseholdExpenses.Communication",
-      "projectPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj",
+      "projectPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\HouseholdExpenses.Communication.csproj",
       "packagesPath": "C:\\Users\\octav\\.nuget\\packages\\",
-      "outputPath": "C:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\obj\\",
+      "outputPath": "c:\\source\\HouseholdExpenses\\backend\\HouseholdExpenses.Communication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
