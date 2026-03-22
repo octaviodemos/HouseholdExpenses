@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HouseholdExpenses.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9d3dc4b301332859d971981f82fdf5c41d10c33")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00f681e0f38362134c034088f1b9a73700e79e4f")]
 [assembly: System.Reflection.AssemblyProductAttribute("HouseholdExpenses.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HouseholdExpenses.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
