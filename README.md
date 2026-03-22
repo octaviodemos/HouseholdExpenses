@@ -54,6 +54,14 @@ Modelo relacional das entidades persistidas no PostgreSQL (tabelas `persons`, `c
 
 ---
 
+## Protótipo de Baixa Fidelidade
+
+O projeto possui uma prototipação de baixa fidelidade disponível no Figma:
+
+[Figma - Household Expenses](https://www.figma.com/design/CGVCW5jN3nr8OEVBpdVcDV/Baixa-Fidelidade-HouseholdExpenses?node-id=0-1&t=L9PSqWHM6Q0V3LPI-1)
+
+---
+
 ## Funcionalidades
 
 - **Pessoas:** CRUD completo (criar, listar, editar, excluir).
