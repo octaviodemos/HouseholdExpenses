@@ -88,6 +88,21 @@ O projeto possui uma prototipação de baixa fidelidade disponível no Figma:
 
 ---
 
+## Diferenciais
+
+- **Clean Architecture + DDD** — separação clara de responsabilidades, domínio isolado de infraestrutura
+- **Testes unitários** — 25 testes cobrindo regras de negócio do Domain e Use Cases com xUnit e Moq
+- **Docker Compose** — ambiente completo com um único comando (`docker compose up -d --build`)
+- **Swagger** — documentação interativa da API disponível em `/swagger`
+- **Middleware global de exceções** — respostas de erro padronizadas em JSON com status HTTP corretos
+- **Protótipo de baixa fidelidade** — wireframes das telas disponíveis no Figma
+- **Diagrama ER** — modelo de entidades e relacionamentos do banco de dados
+- **Mapeamento manual** — sem AutoMapper, mapeamentos explícitos para total controle
+- **AsNoTracking** — queries de leitura otimizadas no EF Core
+- **Records para DTOs** — imutabilidade e clareza nos contratos de comunicação
+
+---
+
 ## Pré-requisitos
 
 - **Docker** e **Docker Compose**
@@ -195,4 +210,4 @@ HouseholdExpenses/
 
 ## Licença
 
-Defina aqui a licença do repositório, se aplicável.
+MIT License
